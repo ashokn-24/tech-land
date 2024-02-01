@@ -1,0 +1,142 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+body{
+  background-color: #eeeeee;
+}
+
+#header{
+  background-image: url(./images/bg-1.jpg);
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 100vh;
+  position: relative;
+}
+
+#login-header{
+  background-image: url(./images/bg-2.jpg);
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 100vh;
+  position: relative;
+}
+
+#contacts-header{
+  background-image: url(./images/bg-4.jpg) ;
+  background-size:cover ;
+  color: #ffffff;
+}
+
+
+
+a{
+  color: #ffffff !important;
+}
+
+#header a:hover{
+color: #000000 !important;
+}
+
+#header-content{
+  margin-top: 10rem;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.bottom-img{
+
+  width: 100%;
+}
+
+#bodyNav{
+  padding: 20px;
+}
+
+.pc-img{
+  width: 100%;
+ 
+}
+
+#footer-icon img{
+  width: 50px;
+}
+
+.form{
+  background: transparent;
+  color: #ffffff;
+  max-width:480px;
+  height: 480px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+}
+
+#contact-address{
+  max-width:480px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+}
+table {
+  width: 50%;
+}
+input{
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.rem;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  background: transparent;
+
+}
+
+label{
+  width: 100px;
+}
+
+label:first-child{
+  padding-right: 20px;
+}
+
+tr td:first-child{
+  padding-right: 20px;
+}
+
+tr td{
+  padding: 20px;
+}
+
+
+
+.login-form{
+ background: transparent;
+  color: #ffffff;
+  display: block;
+  max-width:480px;
+  height: 480px;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+}
+
+.login-form div{
+  
+}
+
+form button{
+
+}
+
+#contacts-info{
+  width: 60%;
+}
